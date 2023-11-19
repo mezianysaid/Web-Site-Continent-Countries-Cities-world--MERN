@@ -1,0 +1,25 @@
+.Countries {
+    padding-bottom: 30px;
+    .regions{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        justify-content: space-around;
+    }
+    .country{
+        margin: 5px;
+        // display: flex;
+    }
+       
+    .search {
+        // width: 60%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchField{
+        width: 60%;
+
+    }
+}

@@ -1,0 +1,49 @@
+.Continents {
+    font-size: xx-large;
+    margin-bottom: 70px;
+    .headerWrapper{
+        // width: 100%;
+        display: flex;
+        height: 450px;     
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        height: 300px;
+
+    }
+    .blockquote{ 
+        border:none;
+        font-family:Georgia, "Times New Roman", Times, serif;
+        margin-top:0px;
+        padding-top: 0%;
+        quotes: "\201C""\201D""\2018""\2019";
+        padding-inline: 0px;
+                .quote {
+                font-size:23px;
+                font-weight: 600;
+                }
+                
+                .quote:before { 
+                content: open-quote;
+                font-weight: bold;
+                font-size:40px;
+                color:#889c0b;
+                margin-inline: 0px;
+                padding-inline: 0px;
+                } 
+                .quote:after { 
+                content: close-quote;
+                font-weight: bold;
+                font-size:40px;
+                color:#889c0b;
+      
+                           }
+         }
+}

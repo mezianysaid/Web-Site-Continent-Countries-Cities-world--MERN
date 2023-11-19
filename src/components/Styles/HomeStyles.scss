@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;  
+    padding-bottom: 30px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.headHome{
+    background-image: url('../../assets/Syd.jpg');
+    width: 100%;
+    height: 450px;     
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+.title{
+    font-size: 20;
+    font-weight:800;
+    color: white;
+}
+.welc{
+    padding-top: 100px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    padding-inline: 10px;
+
+}
+.blockquote{ 
+        border:none;
+        font-family:Georgia, "Times New Roman", Times, serif;
+        margin-bottom:0px;
+        quotes: "\201C""\201D""\2018""\2019";
+        padding-inline: 0px;
+    .quote {
+    font-size:15px;
+    }
+    
+    .quote:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size:40px;
+    color:#889c0b;
+    margin-inline: 0px;
+    padding-inline: 0px;
+    } 
+    // .quote:after { 
+    // content: close-quote;
+    // font-weight: bold;
+    // font-size:40px;
+    // color:#889c0b;
+      
+    // }
+}
